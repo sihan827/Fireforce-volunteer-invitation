@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Sunflower:500,700');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700');
+
+html{
+    height: 100vh;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.borderbox{
+    position: relative;
+    border: 20px solid transparent;
+    /*border-radius: 2%;*/
+    background-image: linear-gradient(#fff, #fff), 
+    linear-gradient(to bottom, orange 45%,  wheat 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;   
+}
+
+.contents{
+    padding: 5%;
+    text-align: center;
+}
+
+.invitation{
+    margin: 5%;
+    padding: 2%;
+    font-size: 20px;
+    font-family: "Nanum Gothic", sans-serif;
+    background-color: wheat;
+    width: fit-content;
+    border-radius: 7%;
+    color: saddlebrown; 
+}
+
+.main_image{
+    width: 90%;
+    border: 3px solid wheat;
+    border-radius: 6%;
+}
+
+.titleline1{
+    padding-top: 5%;
+    font-size: 17px;
+    word-break: keep-all;
+    font-family: "Sunflower", sans-serif;
+}
+
+.titleline2{
+    padding-top: 2%;
+    font-size: 19px;
+    word-break: keep-all;
+    font-family: "Sunflower", sans-serif;
+}
+
+.titleline3{
+    padding-top: 2%;
+    font-size: 20px;
+    word-break: keep-all;
+    font-family: "Sunflower", sans-serif;
+}
+
+.titleaddition{
+    font-size: 13px;
+    line-height: 19px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.host_company{
+    padding-top: 5%;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.hosting{
+    padding-bottom: 2%;
+    font-size: 18px;
+    font-family: "Sunflower", sans-serif;
+}
+
+.patron{
+    padding-top: 10%;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.patrontitle{
+    padding-bottom: 2%;
+    font-size: 18px;
+    font-family: "Sunflower", sans-serif;
+}
+
+#middletitle{
+    padding-top: 7%;
+    font-size: 18px;
+    font-family: "Sunflower", sans-serif;
+}
+
+.main_letter{
+    background-color: wheat;
+    border-top-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    font-size: 13px;
+    padding: 4%;
+    padding-top: 2%;
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: justify;
+}
+
+.letter_date{
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.main_host{
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.telephone{
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+ul{
+    text-align: center;
+    width: 75%;
+    list-style: none;
+}
+
+li{
+    margin: 7px 0px;
+}
+
+.specific_date{
+    font-size: 13px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.calender{
+    width: 90%;
+    border: 6px solid wheat;
+    border-radius: 5%;
+}
+.timeline{
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.specific_location{
+    padding-top: 2%;
+    font-size: 13px;
+    font-family: "Noto Sans KR", sans-serif;
+    padding-bottom: 5%;
+}
+
+.composer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 9%;
+    margin-bottom: 6%;
+    font-size: medium;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.logo{
+    width: 60px;
+}
+
